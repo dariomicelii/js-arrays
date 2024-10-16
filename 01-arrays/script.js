@@ -34,7 +34,7 @@ teachers.unshift("Sarah")
 console.log(teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
-teachers.includes("Fabio")
+console.log(teachers.includes("Fabio"))
 
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = teachers.includes("Fabio");
@@ -54,7 +54,7 @@ console.log(teachersString)
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = teachers.length;
+const isTeachersEmpty = teachers.length === 0;
 console.log(isTeachersEmpty)                // Non sono sicuro che sia giusto,
                                             // però stampando mi da il numero degli elementi 
                                             // presenti nell'array, essendo diverso da 0 l'array
