@@ -34,7 +34,7 @@ console.log(longNames);
 let nameDelete = 'Ed';
 for(let i = 0; i < teachers.length; i++){
   if (teachers[i] === nameDelete){
-    teachers.splice(i, 1)
+    console.log(teachers.splice(i, 1))
   }
 }
 console.log(teachers)   
